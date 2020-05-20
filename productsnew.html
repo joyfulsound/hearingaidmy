@@ -22,23 +22,10 @@
   <body>
 
     <header>
-      <div class="top">
-        <div class="topcon">
-        <nav>
-         <a href="./index.html" title="Browse to homepage">Joyful Sound</a><br />
-        <a href="products.html">Products</a> |
-        <a href="services.html">Services</a> |
-        <a href="promo.html">Promotions</a> |
-        <a href="map.html">Contact Us</a>
-        </nav>
-        </div>
-      </div>
-
-
     <!-- Navbar -->
     <div class="w3-top">
     <nav>
-      <div class="w3-bar w3-black w3-card">
+      <div class="w3-bar w3-black">
         <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
         <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
         <a href="products.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Products</a>
@@ -61,14 +48,14 @@
 </header>
 
 <!-- ##### Main Copy ##### -->
-<main>
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
+<main  style="max-width:2000px; margin: 46px, 50px, 0px,50px;">
+<div class="w3-content">
 
 
 <!-- black cards section -->
-<div class="w3-black w3-container w3-content w3-padding-64" style="max-width:800px">
+<div class="w3-black w3-container w3-content w3-padding-64">
 
-<div class="w3-row-padding w3-padding-32" style="margin:0 -10px">
+<div class="w3-row-padding w3-padding-32">
   <div class="w3-third w3-margin-bottom">
     <img src="/w3images/newyork.jpg" alt="Hearing Aid Batteries" style="width:100%" class="w3-hover-opacity">
     <div class="w3-container w3-white">
@@ -97,13 +84,43 @@
     </div>
   </div>
 </div>
+
+<div class="w3-row-padding w3-padding-32">
+  <div class="w3-third w3-margin-bottom">
+    <img src="/w3images/paris.jpg" alt="Hearing Aids" style="width:100%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+       <p class="w3-text-orange"><b>Assisstive Listening Devices </b></p>
+      <p class="w3-opacity">Assistive Technology</p>
+      <p>Vibrations in the air is carefully made louder without damaging one's hearing further.</p>
+      <a href="#ald"><button class="w3-button w3-black w3-margin-bottom" >Learn more</button></a>
+    </div>
+  </div>
+  <div class="w3-third w3-margin-bottom">
+    <img src="/w3images/paris.jpg" alt="Hearing Aids" style="width:100%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+       <p class="w3-text-orange"><b>Remote Programming</b></p>
+      <p class="w3-opacity">Tele Technology</p>
+      <p>Setting your hearing aids in your home from our office.</p>
+      <a href="#remote"><button class="w3-button w3-black w3-margin-bottom" >Learn more</button></a>
+    </div>
+  </div>
+  <div class="w3-third w3-margin-bottom">
+    <img src="/w3images/paris.jpg" alt="Hearing Aids" style="width:100%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+       <p class="w3-text-orange"><b>Tinnitus Relief</b></p>
+      <p class="w3-opacity">Comforting Technology</p>
+      <p>Vibrations in the air is carefully made louder without damaging one's hearing further.</p>
+      <a href="#tinnitus"><button class="w3-button w3-black w3-margin-bottom" >Learn more</button></a>
+    </div>
+  </div>
+</div>
 </div>
 
 <div class="w3-container w3-content">
 <div class="w3-panel w3-white w3-card w3-display-container">
 
   <div class="w3-container w3-green w3-cell">
-    <p>Image of hearing aids here</p>
+    <img src="img/Signia_Styletto_Hearing_Aids.webp" width="80%">
   </div>
 
   <div class="w3-container w3-white w3-cell">
@@ -119,28 +136,11 @@
 </div><!--closes the section for hearing aid in a box -->
 </div>
 </div>
-             <!-- ##### Sidebar ##### -->
-
-
-
-	<p>Products</p>
-	<ul>
-	<li><a href="#ha">Hearing Aids</a></li>
-	<li><a href="#batt">Hearing Aid Batteries</a></li>
-	<li><a href="#acc">Hearing Aid Accessories</a></li>
-	<li><a href="#ald">Assistive Listening Devices</a></li>
-	<li><a href="#tinnitus">Tinnitus Relief Tool</a></li>
-	</ul>
-
-      </div>
-
-
 
 
 
 <div class="w3-container w3-content">
 <div class="w3-panel w3-white w3-card w3-display-container">
-
 
   <div class="w3-container w3-white w3-cell">
     <h1 id="batt">Hearing Aid Batteries</h1>
@@ -154,35 +154,34 @@
     </ul>
     <p>So if you do forget the size of your hearing aid batteries, remember the colour. There are many manufacturers of hearing aid batteries but they all follow the standard for hearing aid battery sizes.</p>
 
-
     <div class="w3-container w3-responsive"> <!-- starts table -->
     <table class="w3-table w3-striped w3-bordered  w3-card-4">
     <thead>
-    <tr class="w3-theme">
+    <tr class="w3-theme  w3-cell-middle">
       <th>Battery Size</th>
       <th>Colour Code</th>
       <th>Sample Image</th>
     </tr>
     </thead>
     <tbody>
-    <tr>
+    <tr class="w3-cell-middle">
       <td>675</td>
-      <td>Blue</td>
+      <td class="w3-round-xlarge w3-blue">Blue</td>
       <td><img src="battery_675.jpg"></td>
     </tr>
-    <tr>
+    <tr class="w3-cell-middle">
       <td>13</td>
-      <td>Orange</td>
+      <td class="w3-round-xlarge w3-orange">Orange</td>
       <td><img src="battery_13.jpg"></td>
     </tr>
-    <tr>
+    <tr class="w3-cell-middle">
       <td>312</td>
-      <td>Brown</td>
+      <td class="w3-round-xlarge w3-brown">Brown</td>
       <td><img src="battery_312.jpg"></td>
     </tr>
-    <tr>
+    <tr class="w3-cell-middle">
       <td>10</td>
-      <td>Yellow</td>
+      <td class="w3-round-xlarge w3-yellow">Yellow</td>
       <td><img src="battery_10.jpg"></td>
     </tr>
     </tbody>
@@ -199,8 +198,6 @@
 
 </div><!-- closes the hearing aid batteries section with an image. -->
 </div>
-</div>
-
 
 
 
@@ -219,7 +216,7 @@
 
 <!-- Accessories Section -->
 <div class="w3-container w3-padding-32" id="acc">
-  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Hearing Aid Accessories</h3>
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 ">Hearing Aid Accessories</h3>
 </div>
 
 <div class="w3-row-padding">
@@ -283,41 +280,42 @@
 
 <img src="logoreflct.gif" />
 
-<p class="center"><a href="#top">Back to Top</a></p>
+<p class="w3-center"><a href="#top">Back to Top</a></p>
       </div>
 
-      <div class="block">
-<h1 id="ald">Assistive Listening Devices</h1>
+      <div class="w3-container">
+<h1 id="ald" class="w3-panel w3-orange">Assistive Listening Devices</h1>
 <p>Sometimes people who have hearing difficulties do not need hearing aids, then assisstive listening devices are introduced to help the person cope better. These include the FM system, Amplified phones, Infrared systems, TV listeners, stobe alarm, vibrating clocks, and more. Jensen Hearing provides these devices as the need arises.</p>
-<p class="center"><a href="#top">Back to Top</a></p>
+<p class="w3-center"><a href="#top">Back to Top</a></p>
      </div>
 
 
-      <div class="block">
-<h1 id="tinnitus">Tinnitus Relief Tool</h1>
+      <div class="w3-container">
+<h1 id="tinnitus" class="w3-panel w3-orange">Tinnitus Relief Tool</h1>
 <p>Tinnitus or ringing in the ear can sometimes reach a irritating level causing stress in the person experiencing it. Some would advice on taking medication or using hearing aids. Taking medication alone may not always help. Here at Jensen Hearing we have TinniTool with MediLaser.</p>
 <p>The Laser light from MediLaser can penetrate the deepest skin layers encouraging sells to rapidly rejuvenate. When used with MediLaser, TinniTool helps the light photons to strike exactly on the mitochondira of cells in the inner ear to produce the necessary cell fuel ATP. This leads to rejuvenation of the hearing cells, which later give effects to reduction of tinnitus.</p>
 <p>Do also note that while we seek relief from tinnitus, there is no "complete cure" for tinnitus. There are a few causes for tinnitus and it is not always clear as to the source of the phantom sound. As such we need to have realistic expectations on tinnitus relief. Come and talk to our audiologist to explore options you have have to experience tinnitus relief.</p>
 
-<p class="center"><a href="#top">Back to Top</a></p>
+<p class="w3-center"><a href="#top">Back to Top</a></p>
      </div>
-<address>
-      <div class="block">
+
+<div class="w3-padding-32" style="margin-right:auto; margin-left:auto">
+<div class="w3-card-4 w3-orange w3-center" style="width:50%">
+<address class="w3-container">
       <h1>Our Address</h1>
+      <a href="https://www.google.com.my/maps/place/Joyful+Sound+Sdn+Bhd/@2.1871427,102.2516538,17z/data=!3m1!4b1!4m5!3m4!1s0x31d1f1a925a53e9d:0xfb310604d3c8bd9!8m2!3d2.1871373!4d102.2538425">A map to Joyful Sound</a>
       <p>Joyful Sound<br />
 	356 Jalan Melaka Raya 4,<br />
 	Taman Melaka Raya,<br />
 	75000 Melaka.</p>
-	<a href="#">A map to Joyful Sound</a>
-     </div>
 </address>
-
+</div>
     </div>
 
 </main>
     <!-- ##### Footer ##### -->
-<footer>
-Tel: 06-2881407 | Copyright &copy; 2003-2020, Joyful Sound | Modified on <time datetime="2020-05-05">2020 May 05</time>
+<footer class="w3-container w3-black w3-center">
+Tel: 06-2881407 | Copyright &copy; 2003-2020, Joyful Sound | Modified on <time datetime="2020-05-05">2020 May 16</time>
 </footer>
 
 <script type="text/javascript">
